@@ -25,8 +25,8 @@ def register_face(name):
     cam.release()
     cv2.destroyAllWindows()
 
-    # Proses wajah      
-    rgb = frame[:, :, ::-1]
+    # Proses wajah       
+    rgb = frame[:, :, ::-1] 
     faces = face_recognition.face_encodings(rgb)
 
     if len(faces) == 0:
