@@ -36,7 +36,7 @@ def register_face(name):
     encoding = faces[0]
 
     # Simpan ke file
-    data = {}
+    data = {} 
 
     if os.path.exists(data_path):
         with open(data_path, "rb") as f:
