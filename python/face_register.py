@@ -37,7 +37,7 @@ def register_face(name):
 
     # Simpan ke file
     data = {} 
-
+  
     if os.path.exists(data_path):
         with open(data_path, "rb") as f:
             data = pickle.load(f)
